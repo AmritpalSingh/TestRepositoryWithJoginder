@@ -9,6 +9,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hey Yo Mater Trunk");
+            Console.Read(); 
         }
     }
 }
