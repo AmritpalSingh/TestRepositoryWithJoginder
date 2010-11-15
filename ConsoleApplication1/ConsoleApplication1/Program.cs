@@ -13,13 +13,15 @@ namespace ConsoleApplication1
             Console.Read();
 
             NewFeatureinMain(); 
+            NewBuginR2();
         }
-
-        static void NewFeatureinMain()
-        {
+		 static void NewFeatureinMain()        {
             Console.WriteLine("New Feature in Main");
             Console.Read();
         }
-
-    }
-}
+        static void NewBuginR2()
+        {
+            Console.WriteLine("Release Candidate Bug");
+            Console.Read();
+        }
+    }}
