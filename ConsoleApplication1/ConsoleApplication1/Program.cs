@@ -10,7 +10,16 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Hey Yo Mater Trunk");
-            Console.Read(); 
+            Console.Read();
+
+            NewFeatureinMain(); 
         }
+
+        static void NewFeatureinMain()
+        {
+            Console.WriteLine("New Feature in Main");
+            Console.Read();
+        }
+
     }
 }
