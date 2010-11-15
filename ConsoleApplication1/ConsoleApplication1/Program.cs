@@ -12,10 +12,11 @@ namespace ConsoleApplication1
             Console.WriteLine("Hey Yo Mater Trunk");
             Console.Read();
 
-            NewFeatureinMain(); 
+            NewFeatureinMain();
             NewBuginR2();
         }
-		 static void NewFeatureinMain()        {
+        static void NewFeatureinMain()
+        {
             Console.WriteLine("New Feature in Main");
             Console.Read();
         }
@@ -24,4 +25,5 @@ namespace ConsoleApplication1
             Console.WriteLine("Release Candidate Bug");
             Console.Read();
         }
-    }}
+    }
+}
